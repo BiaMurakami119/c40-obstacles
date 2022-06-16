@@ -19,3 +19,21 @@ obstacle1 = new Group();
       { x: width / 2 + 250, y: height - 4800, image: obstacle2Image },
       { x: width / 2 - 180, y: height - 5500, image: obstacle2Image }
     ];
+
+
+
+this.addSprites(
+      obstacle1,
+      obstacle1Positions.length,
+      obstacle1Image,
+      0.04,
+      obstacle1Positions
+    );
+    this.addSprites(
+      obstacle2,
+      obstacle2Positions.length,
+      obstacle2Image,
+      0.04,
+      obstacle2Positions
+    );
+  }
